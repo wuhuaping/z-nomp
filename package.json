@@ -1,5 +1,5 @@
 {
-    "name": "z-nomp",
+    "name": "z-nomp-gai",
     "version": "0.0.4",
     "description": "Bitcoin Pizza (Equihash) stratum mining pool based on NOMP",
     "keywords": [
@@ -12,9 +12,9 @@
         "zcash",
         "equihash"
     ],
-    "homepage": "https://github.com/zencashio/z-nomp",
+    "homepage": "https://github.com/wuhuaping/z-nomp-gai",
     "bugs": {
-        "url": "https://github.com/zencashio/z-nomp/issues"
+        "url": "https://github.com/wuhuaping/z-nomp-gai/issues"
     },
     "license": "MIT",
     "author": "Joshua Yabut",
@@ -31,7 +31,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/zencashio/z-nomp.git"
+        "url": "https://github.com/wuhuaping/z-nomp-gai.git"
     },
     "dependencies": {
         "async": "^2.5.0",
@@ -49,7 +49,7 @@
         "nonce": "^1.0.4",
         "redis": "^2.8.0",
         "request": "^2.83.0",
-        "stratum-pool": "git+https://github.com/StarbuckBG/node-stratum-pool.git#ef65dfbc338fdecb75fded551af67d05dff24ea6"
+        "stratum-pool": "git+https://github.com/atiger77758/node-stratum-pool.git#ef65dfbc338fdecb75fded551af67d05dff24ea6"
     },
     "engines": {
         "node": ">=0.10"
